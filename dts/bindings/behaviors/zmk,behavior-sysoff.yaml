@@ -1,0 +1,14 @@
+description: Keyboard Sysoff Behavior
+
+compatible: "zmk,behavior-sysoff"
+
+properties:
+  "#binding-cells":
+    type: int
+    required: true
+    const: 0
+
+properties:
+  type:
+    type: int
+    default: 0

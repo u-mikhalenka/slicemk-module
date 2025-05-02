@@ -1,0 +1,17 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/sysoff.h>
+
+/ {
+    behaviors {
+        sys_off: behavior_reset_sysoff {
+            compatible = "zmk,behavior-sysoff";
+            type = <RST_SYSOFF>;
+            #binding-cells = <0>;
+        };
+    };
+};
