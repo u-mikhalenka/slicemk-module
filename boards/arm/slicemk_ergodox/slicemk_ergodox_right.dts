@@ -1,5 +1,5 @@
 /dts-v1/;
-#include "slicemk_ergodox_202207_green_common.dts"
+#include "slicemk_ergodox_common.dts"
 
 / {
     ergodox_a: ergodox_a {
