@@ -9,7 +9,7 @@
 / {
     behaviors {
         sys_off: behavior_reset_sysoff {
-            compatible = "zmk,behavior-sysoff";
+            compatible = "zmk,behavior-reset";
             type = <RST_SYSOFF>;
             #binding-cells = <0>;
         };

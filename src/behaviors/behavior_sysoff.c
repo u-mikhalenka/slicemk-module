@@ -1,6 +1,7 @@
 #include <zephyr/init.h>
 #include <zephyr/device.h>
 #include <nrfx.h>
+#include <dt-bindings/zmk/sysoff.h>
 
 static int sysoff_init_prekernel(const struct device *dev) {
 #ifdef CONFIG_SOC_SERIES_NRF52X
